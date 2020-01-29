@@ -1,5 +1,6 @@
 import React from 'react';
 import DivvyContainer from './DivvyContainer';
+import CtaContainer from './CtaContainer';
 
 class App extends React.Component {
 
@@ -10,6 +11,7 @@ class App extends React.Component {
             <div>
                 <DivvyContainer
                  getStation={this.getStation}/>
+                <CtaContainer/>
             </div>
         )
     }

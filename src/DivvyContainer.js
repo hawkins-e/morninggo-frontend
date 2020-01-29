@@ -35,7 +35,7 @@ class DivvyContainer extends React.Component {
     // console.log("DEBUG RENDER", this.state.divvyStation)
     let renderContent;
     if (this.state.isLoading) {
-      renderContent = <div> Is loading... </div>;   
+      renderContent = <div> Is Loading... </div>;   
     } else {    
       renderContent = (
         <div>
