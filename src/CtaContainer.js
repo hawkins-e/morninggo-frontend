@@ -12,9 +12,8 @@ class CtaContainer extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx?key=642632906178436fa3f103470c610444&mapid=40380',{
-        mode:'no-cors'// 'cors' by default
-    })
+    fetch(URL)
+    
       .then(response => response.json())
       .then(data => {
         console.log(data);
