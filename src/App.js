@@ -3,9 +3,6 @@ import DivvyContainer from './DivvyContainer';
 import CtaContainer from './CtaContainer';
 
 class App extends React.Component {
-
-
-
     render(){
         return(
             <div>
